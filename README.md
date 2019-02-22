@@ -1,5 +1,8 @@
 # eCommerceReact
 
+
+<b>Disclaimer: Currently the README file is not updated to reflect the recent commits. README will be completed after project completion.</b> 
+
 NOTES: 
 
 React Fragment: allows us to simulate html tags.
