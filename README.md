@@ -1,5 +1,8 @@
 # eCommerceReact
 
+
+<b>Disclaimer: Currently the README file is not updated to reflect the recent commits. README will be completed after project completion.</b> 
+
 NOTES: 
 
 React Fragment: allows us to simulate html tags.
@@ -27,6 +30,7 @@ Within the *Switch* component, we've embedded a number of routes: ProductList, D
 # Navigation Bar
 
 The first component worked on is the navigation bar which merely consists of the store icon which was imported via cdn for iconfinder and two links routing to the products and cart page. 
+<<<<<<< HEAD
 
 # Issues
 
@@ -41,3 +45,5 @@ Problem?
 Lets set some functionality where we'll get the value for the state first.
 
 **we want extraction of data from the actual data.js file not references. 
+=======
+>>>>>>> cd047b4492fc50f896cb604488dec0d16ea1d0d6
