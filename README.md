@@ -27,3 +27,17 @@ Within the *Switch* component, we've embedded a number of routes: ProductList, D
 # Navigation Bar
 
 The first component worked on is the navigation bar which merely consists of the store icon which was imported via cdn for iconfinder and two links routing to the products and cart page. 
+
+# Issues
+
+There are one more thing we want to fix before we start working on the details component of the website; this would lie in the context component. This issue has everything to do with the fact that everytime we work with JS, everytie we assign objects to a variable, we're assigning a reference. 
+
+We have the products which is a property in the state in which we're assining it to an array. Within the array, we have objects embeded. and those objects are assigned as references.
+
+Problem?
+
+- Changing the products in the state is going to change products in the "storeProducts"
+
+Lets set some functionality where we'll get the value for the state first.
+
+**we want extraction of data from the actual data.js file not references. 
